@@ -2,10 +2,6 @@
 
 # PS5 - Built different
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
-
-Essentially, this part is your sales pitch.
-
 My project is dedicated to the latest console that has been released, the PlayStation5, or PS5 for short. The reason why I chose to work on a website dedicated to advertising the PS5 is to show people how revolutionary this console is compared to Sony's previous releases such as its older playstation console models. Back when I was a young child, I have been introduced into the world of gaming through the PlayStation 2 model and I have been hooked to gaming ever since. I have grown up alongside the playstations as it went through various changes throughout the years, whether be it positive or negative, I enjoyed it nevertheless.
 
 Sony's playstation series has allowed me to relief my life stresses such as examinations or projects and it has allowed me to express many different emotions, whether be it sad or happiness through each different game I play. With the joyful experience I had with Sony's playstation series, I would like to return the favour by dedicating my ID assignment for Sony's newest PlayStation 5 and I hope that people who see this website would be able to 
@@ -23,7 +19,19 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+Navigation Bar --> Allows user to jump to specific part of the page without scrolling
+
+Introduction --> Welcomes user to the website and gives a brief summary on what the website is about
+
+Video showcase and upcoming games --> Showcase videos on gameplay as well as what console looks like and features upcoming games coming along with the release of the PS5
+
+Game experience --> Shows the unique features that the PS5 offers in terms of game play experience
+
+Pricing details --> Shows the 2 models of the PS5, its pricing as well as its feature for both models
+
+Form Page --> A form to allow users to 'preorder' the PS5
+
+Flexbox --> Allows user to view web-page smoothly.
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
