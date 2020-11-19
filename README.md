@@ -5,6 +5,10 @@
 One or two paragraphs providing an overview of your project. Tell us about your project.
 
 Essentially, this part is your sales pitch.
+
+My project is dedicated to the latest console that has been released, the PlayStation5, or PS5 for short. The reason why I chose to work on a website dedicated to advertising the PS5 is to show people how revolutionary this console is compared to Sony's previous releases such as its older playstation console models. Back when I was a young child, I have been introduced into the world of gaming through the PlayStation 2 model and I have been hooked to gaming ever since. I have grown up alongside the playstations as it went through various changes throughout the years, whether be it positive or negative, I enjoyed it nevertheless.
+
+Sony's playstation series has allowed me to relief my life stresses such as examinations or projects and it has allowed me to express many different emotions, whether be it sad or happiness through each different game I play. With the joyful experience I had with Sony's playstation series, I would like to return the favour by dedicating my ID assignment for Sony's newest PlayStation 5 and I hope that people who see this website would be able to 
  
 ## Design Process
  
@@ -30,38 +34,30 @@ In addition, you may also use this section to discuss plans for additional featu
 ### Features Left to Implement
 - Another feature idea
 
-## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
-
-## Testing
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Credits
 
+https://imgur.com/a/U7i7jNX --> My own created icons from photoshop
+
+https://fonts.adobe.com/fonts/clarendon-text#about-section --> The font I used for the Sony logo
+
+
+
+
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from:
+
+https://gmedia.playstation.com/is/image/SIEPDC/ps5-black-badge-01-en-11sep20?$400px--t$
+
+- The videos used in this site were obtained from:
+
+https://www.youtube.com/watch?v=TFURnfVLA68&feature=emb_title
+
+https://www.youtube.com/watch?v=RkC0l4iekYo&feature=emb_title
+
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from Sony's PS5 advertisement website : https://www.playstation.com/en-sg/ps5/
