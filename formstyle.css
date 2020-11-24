@@ -1,0 +1,63 @@
+#container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 60%;
+    height: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+  
+  }
+  
+  label{
+    font-size:20px;
+    vertical-align: middle;
+    font-family: 'Roboto Slab', serif;
+  }
+  h3 {
+    text-align: left;
+    margin-left: 15%;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  body {
+      text-align: center;
+  }
+  form {
+      display: inline-block;
+  }
+  
+  .radio-inline{
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    vertical-align: middle;
+    font-weight: normal;
+  
+  }
+  .inline{
+    display: inline-block;
+    margin-right: auto;
+  }
+  .inputspacing {
+     margin-left: 20%;
+     width: 40%;
+  }
+  .buttonspacing {
+    margin-left: auto;
+  }
+  
+  #container > div {
+   margin-bottom: 5%;
+  }
+  
+  
+  
