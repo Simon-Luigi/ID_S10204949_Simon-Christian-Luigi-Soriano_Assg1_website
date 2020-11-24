@@ -74,7 +74,7 @@ li{
 
 
 /*styles for specific areas*/
-.paragraphbox{
+.paragraphBox{
   font-size: 2vw;
   width: 650px;
   height: 300px;
@@ -82,9 +82,18 @@ li{
   padding: 20px;
   display:inline-flex;
 }
-header{
+.greyBackground{
   background-color: rgb(238,238,238)
 }
+
+.gameExperience{
+  background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps5-demonsouls-video-thumb-block-07-en-110620?$1600px$);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-shadow: 0 0 3px black, 0 0 5px grey; 
+  color: white;
+}
+
 
 .videoItem{
   margin: 50px;;
@@ -159,13 +168,14 @@ header{
 .container{
   display:flex;
   flex-direction: column;
+
 }
-  .containerWrap{
+.containerWrap{
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 
-  }
+}
 }
