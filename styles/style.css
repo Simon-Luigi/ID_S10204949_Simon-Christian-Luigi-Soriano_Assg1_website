@@ -25,6 +25,12 @@ a:hover {
 
 
 /*Headers and body styles*/
+.body{
+  border-style: solid;
+  border-color: black;
+  padding: 5%;
+}
+
 h2{
   font-family: 'Roboto', sans-serif;
   font-size: 50px;
@@ -44,13 +50,16 @@ p{
 li{
   font-family: 'Noto Sans JP', sans-serif;;
   font-size: 14px;
+  padding-bottom: 10px;
 }
 
 .paragraphBox{
-  font-size: 1.8vw;
+  font-size: 2vw;
   width: 650px;
-  height: 300px;
+  height: auto;
   margin: 55px;
+  color:black;
+  text-shadow: 0 0 10px white, 0 0 4px grey; 
 }
 
 .gameExperience p {
@@ -79,6 +88,7 @@ li{
 }
 
 
+
 .greyShadow{
   color: black;
   text-shadow: 0 0 3px #6A6A6A; 
@@ -86,6 +96,10 @@ li{
 
 .glow{
   text-shadow: 0 0 5px white, 0 0 10px black
+}
+
+.itemPricing h2{
+  font-size: 36px;
 }
 /*containers*/
 .container{
@@ -164,6 +178,13 @@ color: white
   margin: auto;
   height: auto;
   justify-content: center;
+  align-items: center;
+}
+
+.thickborder{
+  border-style: solid;
+  border-color: black;
+  padding: 5%;
 }
 
 .wrapper{
@@ -185,11 +206,70 @@ color: white
 	text-shadow:0px 1px 0px #ffffff;
 }
 
-@media screen and (max-device-width: 480px){
-  
-  .container{
+@media only screen and (max-width: 480px) {
+  .containerNav{
     display: flex;
+    flex-wrap:wrap;
+  }
+  a{
+    padding-top: 20px;
+  }
+  .containerNav img{
+    padding-top: 20px;
+  }
+  .paragraphBox{
+    font-size: 16px;
+    color:white;
+    width:auto;
+    height: auto;
+    text-shadow: 0 0 10px black;
+  }
+  .productDetails{
     flex-direction: column;
   }
+  .container{
+    flex-direction:column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+   .containerWrap{
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+   }
 
+  .item img{
+    width: 400px;
+    height: 250px;
+  }
+  .item h3{
+    font-size: 20px;
+  }
+  .itemBox {
+  width: 80%;
+}
+
+  .itemBox img{
+    width: 200px;
+    height: 150px;
+  }
+
+  iframe{
+    width: fit-content;
+  }
+
+  .gameExperience p{
+    font-size: 16px;
+  }
+  .itemPricing{
+    width: 80%;
+  }
+  .itemPricing h2{
+    font-size: 30px;
+    padding-top: 10%;
+  }
+  .itemPricing h3{
+    text-align: center;
+    font-size: 20px;
+  }
 }

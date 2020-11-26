@@ -26,7 +26,7 @@ label{
 h3 {
   text-align: left;
   margin-left: 10%;
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Roboto Slab', serif;
 }
 
@@ -42,7 +42,7 @@ form {
   display: inline-block;
   padding-left: 20px;
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 12px;
   font-family: 'Roboto', sans-serif;
   vertical-align: middle;
   font-weight: normal;
@@ -53,24 +53,38 @@ form {
   margin-right: auto;
 }
 .inputspacing {
-
-   width: 60%;
+   width: 55%;
 }
-.buttonspacing {
-  margin-left: auto;
+.buttonalign { 
+  text-align:center;
+  padding-bottom: 25px;
 }
 
 #container > div > div {
  padding-bottom: 3%;
 }
+.genderalign{
+  margin-left: 50px;
+}
 
+.agealign{
+  margin-left: 42px;
+}
+
+.choicealign{
+  margin-left: 10px;
+}
+
+.container{
+  display:flex;
+}
 .formBox{
   background-color: grey;
   border-radius: 6px;
 }
 input[type=text] {
   position: relative;
-  left: 15%;
+  left: 10%;
   padding-top: 1%;
 }
 button {
@@ -89,14 +103,5 @@ button {
 button:hover {
 	background-color:white;
   color: black
-}
-button:active {
-	position:relative;
-	top:1px;
-}
-
-
-
-@media screen and (max-device-width: 480px){
 }
 
