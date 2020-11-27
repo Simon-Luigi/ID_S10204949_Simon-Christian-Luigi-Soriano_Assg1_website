@@ -3,7 +3,7 @@ body{
   background: linear-gradient(180deg, rgba(94,94,94,1) 0%, rgba(75,75,75,1) 50%, rgba(25,25,25,1) 75%);
 }
 
-#container {
+#PreorderForm {
   border-radius: 5px;
   background-color: black;
   color: white;
@@ -16,7 +16,6 @@ h1 {
   text-align: center;
   font-size: 40px;
   font-family: 'Roboto Slab', serif;
-
 }
 
 label{
@@ -27,6 +26,7 @@ h3 {
   text-align: left;
   margin-left: 10%;
   font-size: 18px;
+  padding-bottom: 3%;
   font-family: 'Roboto Slab', serif;
 }
 
@@ -42,11 +42,9 @@ form {
   display: inline-block;
   padding-left: 20px;
   margin-bottom: 0;
-  font-size: 12px;
   font-family: 'Roboto', sans-serif;
   vertical-align: middle;
   font-weight: normal;
-
 }
 .inline{
   display: inline-block;
@@ -63,6 +61,8 @@ form {
 #container > div > div {
  padding-bottom: 3%;
 }
+
+
 .genderalign{
   margin-left: 50px;
 }
@@ -78,6 +78,7 @@ form {
 .container{
   display:flex;
 }
+
 .formBox{
   background-color: grey;
   border-radius: 6px;
@@ -105,3 +106,34 @@ button:hover {
   color: black
 }
 
+.imgSize25{
+  width: 25%;
+  height: 25%;
+}
+
+@media only screen and (max-width: 480px) {
+  h3{
+    font-size: 16px;
+    margin-left: 5%;
+  }
+  #PreorderForm {
+    width: fit-content;
+  }
+
+  .genderalign{
+    margin-left: 10%;
+  }
+
+  .agealign{
+    margin-left: 0;
+  }
+
+  .choicealign{
+    margin-left: 0;
+  }
+
+  .radio-inline {
+    font-size: 80%;
+  }
+
+}

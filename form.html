@@ -1,89 +1,85 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>PS5: Built different</title>
-    <link href="styles/normalize.css" rel="stylesheet" type="text/css" />
-    <link href="styles/formstyle.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
-  </head>
+<html lang = "en">
 
-  <body>
-    <form id="container" action="/billing.php" method="get" id="preorderform">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Order the PS5 now!</title>
+  <link href="styles/normalize.css" rel="stylesheet" type="text/css" />
+	<link href="styles/formstyle.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<form id="PreorderForm" action="/billing.php" method="get">
+		<div>
+			<h1>Preorder information</h1>
+      <img class = "imgSize25" alt = "Sony Logo" src = "images/icons/Symbol-Sony.jpg"/>
+    </div>
+    <div class = "formBox">
       <div>
-        <h1>Preorder information</h1>
-        <img alt = "Sony Logo" src = "https://1000logos.net/wp-content/uploads/2017/06/Symbol-Sony.jpg" width = "25%" height = "25%"/>
+        <h3 style = "padding-top: 3%;" class = "container">Name
+          <input class = "inputspacing" type = "text" placeholder = "Enter name here" name = "name">
+        </h3>
       </div>
-      <div class = "formBox">
-        <div>
-          <label><h3 style = "padding-top: 3%;">Name
-            <input class = "inputspacing" type = "text" placeholder = "Enter name here" name = name"></h3>
+      <div>
+        <h3 class = "container">Gender
+          <label class="radio-inline genderalign">
+            <input type="radio" name="gender" value ="Male">Male
           </label>
-        </div>
-
-        <div>
-          <h3>Gender
-            <label class="radio-inline button-spacing">
-              <input type="radio" name="male" value ="Male">Male
-            </label>
-            <label class="radio-inline">
-              <input type="radio" name="female" value ="Feale">Female
-            </label>
-            <label class="radio-inline">
-              <input type="radio" name="nosay" value ="Hidden">Prefer not to say
-            </label>
-          </h3>
-        </div>
-        <div>
-          <label><h3>Email
-            <input  class = "inputspacing" type = "text" placeholder = "Enter email" name = email"></h3>
+          <label class="radio-inline">
+            <input type="radio" name="gender" value ="Female">Female
           </label>
-        </div>
-        <div>
-          <h3>Want latest updates of the PS5?
-            <label class="radio-inline button-spacing">
-              <input type="radio" name="yes" value ="news" >Yes
-            </label>
-            <label class="radio-inline">
-              <input type="radio" name="no" value ="nonews" >No
-            </label>
-          </h3>
-        </div>
-
-        <div>
-          <h3>Are you over the age of 18?
-            <label class="radio-inline button-spacing">
-              <input type="radio" name="yes" value ="adult" >Yes
-            </label>
-            <label class="radio-inline">
-              <input type="radio" name="no" value ="child" >No
-            </label>
-          </h3>
-        </div>
-
-        <div>
-          <h3>Choose console of your choice
-            <label class="radio-inline button-spacing">
-              <input type="radio" name="ps5console" value ="ps5" >PS5 Console
-            </label>
-            <label class="radio-inline">
-              <input type="radio" name="ps5digital" value ="ps5digit" >PS5: Digital Edition
-            </label>
-          </h3>
-        </div>
-        <div>
-          <label><h3>Address 1
-            <input  class = "inputspacing" type = "text" placeholder = "Enter address 1" name = address1"></h3>
-          </label>
-        </div>
-        <div>
-          <label><h3>Address 2
-            <input  class = "inputspacing" type = "text" placeholder = "Enter address 2" name = address2"></h3>
-        </label>
-        </div>
+        </h3>
       </div>
-      <button type="submit" value="Submit">Head to billing information</button>
-    </form>
-  </body>
-</html>
+      <div>
+        <h3>Email
+          <input  class = "inputspacing" type = "text" placeholder = "Enter email" name = "email">
+        </h3>
+      </div>
+      <div>
+        <h3 class = "container">Want latest updates of the PS5?
+          <label class="radio-inline">
+            <input type="radio" name="news" value ="yesnews" >Yes
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="news" value ="nonews" >No
+          </label>
+        </h3>
+      </div>
+
+      <div>
+        <h3 class = "container">Are you over the age of 18?
+          <label class="radio-inline agealign">
+            <input type="radio" name="age" value ="adult" >Yes
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="age" value ="child" >No
+          </label>
+        </h3>
+      </div>
+
+      <div>
+        <h3 class = "container">Choose console of your choice
+          <label class="radio-inline choicealign">
+            <input type="radio" name="type" value ="ps5">PS5 Console
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="type" value ="ps5digit">PS5: Digital Edition
+          </label>
+        </h3>
+      </div>
+      <div>
+        <h3 class = "container">Address 1
+          <input  class = "inputspacing" type = "text" placeholder = "Enter address 1" name = "address1">
+        </h3>
+      </div>
+      <div>
+        <h3 class = "container">Address 2
+          <input  class = "inputspacing" type = "text" placeholder = "Enter address 2" name = "address2">
+        </h3>
+      </div>
+    </div>
+    <button type="submit" value="Submit">Head to billing information</button>
+  </form>
+</body>
