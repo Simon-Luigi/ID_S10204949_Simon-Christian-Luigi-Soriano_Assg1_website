@@ -54,5 +54,10 @@ The background of the game experience section was taken from https://www.playsta
 
 The logos, game pictures , console pictures as well as the PS5 videos to help with the creation of the website belongs to Sony Corporation and its partners.
 
+## Github Repository link
+https://github.com/Simon-Luigi/ID_S10204949_Simon-Christian-Luigi-Soriano_Assg1_website
+
+## Website link
+https://simon-luigi.github.io/ID_S10204949_Simon-Christian-Luigi-Soriano_Assg1_website/
 
 
