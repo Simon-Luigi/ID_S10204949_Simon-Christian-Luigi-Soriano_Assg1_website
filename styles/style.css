@@ -239,13 +239,6 @@ color: white
   right: 0;
 }
 
-.boxContainer{
-  box-sizing: border-box;
-  width: 80%;
-  height: 100%;
-  border: 15% black;
-}
-
 /*Image sizes*/
 iframe{
   width: 40%; 
