@@ -32,7 +32,7 @@ a:hover {
 }
 
 h2{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-size: 50px;
   text-align: center;
 }
@@ -189,10 +189,11 @@ color: white
   align-items: center;
 }
 
-.thickborder{
-  border-style: solid;
-  border-color: black;
-  padding: 5%;
+.radialGrey{
+  padding-bottom: 10%;
+  padding-top: 10%;
+  background: rgb(232,232,232);
+  background: radial-gradient(circle, rgba(232,232,232,1) 0%, rgba(255,255,255,1) 35%, rgba(204,204,204,1) 49%, rgba(232,232,232,1) 76%);
 }
 
 .wrapper{
@@ -212,6 +213,37 @@ color: white
 	padding:6px 24px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
+}
+.buttonStyle span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonStyle span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonStyle:hover span {
+  padding-right: 25px;
+}
+
+.buttonStyle:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.boxContainer{
+  box-sizing: border-box;
+  width: 80%;
+  height: 100%;
+  border: 15% black;
 }
 
 /*Image sizes*/
@@ -244,6 +276,9 @@ iframe{
 }
 
 @media only screen and (max-width: 480px) {
+  html,body{
+    overflow-x: hidden;
+  }
   .containerNav{
     display: flex;
     flex-wrap:wrap;
@@ -251,7 +286,17 @@ iframe{
   .imgSize15{
   width: 20%;
   height: 20%;
-}
+  }
+  .imgSize90{
+    width: auto;
+  }
+  .alignPS5Logo{
+    text-align:center;
+  }
+  .alignPS5Logo img{
+    width: 25%;
+    height: 25%;
+  }
   a{
     padding-top: 20px;
   }
@@ -303,7 +348,7 @@ iframe{
     height: 300px;
   }
   .quote h2{
-  font-size: 20px;
+  font-size: 16px;
 }
 
   .gameExperience p{
